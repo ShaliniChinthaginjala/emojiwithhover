@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: black;
+    min-height:100vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.face{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    background-color: yellow;
+    justify-content: center;
+    position: absolute;
+    display:flex;
+    align-items: center;
+
+}
+.reye{
+    width: 23%;
+    height:23%;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display:flex;
+    margin-top: -14%;
+    margin-left: -45%;
+}
+.rieye{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    margin-bottom: -35%;
+    margin-right:-30%;
+
+}
+.leye{
+    width: 23%;
+    height:23%;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display:flex;
+    margin-top: -14%;
+    margin-right: -45%;
+
+}
+.lieye{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    margin-bottom: -35%;
+    margin-left:-30%;
+
+}
+.mouth{
+    width:100px;
+    height:45px;
+    border-radius:50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-bottom: -30%;
+
+}
+.tongue{
+    width:50px;
+    height:70px;
+    border-radius: 10px 10px 50% 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-bottom: -60%;
+}
+.face:hover .rieye{
+    margin:0;
+}
+.face:hover .lieye{
+    margin:0;
+}
+.face:hover .mouth{
+    height: 10px;
+}
+.face:hover .tongue{
+    display:none;
+}
